@@ -16,14 +16,19 @@
 .. class:: center
 
     :Название исследуемой задачи:  Статистический анализ корректирующих способностей различных методов при передаче данных в каналах со стираниями
-    :Тип научной работы: M1P/НИР/CoIS
+    :Тип научной работы: M1P
     :Автор: Илья Романович Кожанов
     :Научный руководитель: к.ф.-м.н., доцент С.И. Гуров
 
 Abstract
 ========
 
-Purus sit amet luctus venenatis lectus magna fringilla. Condimentum id venenatis a condimentum vitae sapien. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Eget egestas purus viverra accumsan in. Nam aliquam sem et tortor. Donec et odio pellentesque diam volutpat commodo. Odio pellentesque diam volutpat commodo sed egestas. Sit amet dictum sit amet justo. Pellentesque sit amet porttitor eget. Imperdiet sed euismod nisi porta lorem mollis aliquam ut. Quis varius quam quisque id diam vel quam elementum. Ornare lectus sit amet est placerat in. Vulputate dignissim suspendisse in est ante. Elit sed vulputate mi sit amet mauris. Egestas sed tempus urna et pharetra pharetra. Viverra tellus in hac habitasse platea dictumst vestibulum rhoncus.
+В представленной работе осуществляется статистическое моделирование различных методов восстановления стертых пакетов при передаче данных в каналах типа «стирание». Основной целью данного исследования является сравнение методов посредством эмулирования их работы статистическими моделями и подсчетом их корректирующей способности с помощью этих моделей.
+
+Для некоторых методов восстановления пакетов аналитический расчет корректирующей способности невозможен или крайне затруднителен в виду сложной математической модели функционирования данных методов, а также различной эффективности при различных паттернах ошибок. Статистическое моделирование их работы позволяет рассчитать корректирующие способности таких методов и сравнить эффективность их работы. 
+
+В данной рассматриваются метод добавления контрольного пакета четности, его модификация even/odd, коды Рида-Соломона, Фонтанные коды (в частности raptor-коды).
+
 
 Research publications
 ===============================
